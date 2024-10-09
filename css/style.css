@@ -1,0 +1,22 @@
+main {
+  min-height: calc(100vh - 160px);
+}
+
+.card {
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex: 1;
+  overflow-y: auto;
+  /* Agrega una barra de desplazamiento vertical*/
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  /* Mantiene la relación de aspecto de la imagen */
+}
